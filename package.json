@@ -1,0 +1,15 @@
+{
+	"scripts": {
+	    "test_debug": "node index.js first_project --debug",
+	    "pack_test" : "node index.js pack first_project wjh --debug",
+	    "rollback_test" : "node index.js rollback first_project wjh --debug",
+	    "version_test" : "node index.js version first_project --debug"
+  	},
+	"dependencies": {
+		"child_process": "^1.0.2",
+		"cos-nodejs-sdk-v5": "^2.0.8",
+		"eventproxy": "^1.0.0",
+		"node-pty": "^0.7.0",
+		"underscore": "^1.8.3"
+	}
+}
